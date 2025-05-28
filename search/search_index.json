@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"core-concepts/","title":"Core Concepts","text":""},{"location":"getting-started/","title":"Getting Started","text":""},{"location":"overview/","title":"Overview","text":""},{"location":"overview/#what-is-rizeos","title":"What is rize.os?","text":""}]}
