@@ -1,4 +1,4 @@
-name: deploy.yml
+name: Deploy to GitHub Pages
 on:
   push:
     branches:
@@ -20,8 +20,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: |
-          pip install mkdocs mkdocs-material mkdocs_puml
+        run: pip install mkdocs mkdocs-material mkdocs_puml
 
       - name: Build MkDocs
         run: mkdocs build --verbose
