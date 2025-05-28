@@ -1,0 +1,33 @@
+site_name: rize.os
+site_url: https://rize-os.github.io/rize-os-docs/
+repo_url: https://github.com/rize-os/rize-os
+
+nav:
+  - 'Overview': overview.md
+  - 'Core Concepts': core-concepts.md
+  - 'Getting Started': getting-started.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.tabs.link
+
