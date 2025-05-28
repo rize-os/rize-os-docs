@@ -3,7 +3,7 @@ site_url: https://rize-os.github.io/rize-os-docs/
 repo_url: https://github.com/rize-os/rize-os
 
 nav:
-  - 'Overview': overview.md
+  - 'Overview': index.md
   - 'Core Concepts': core-concepts.md
   - 'Getting Started': getting-started.md
 
