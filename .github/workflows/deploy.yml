@@ -20,7 +20,7 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install mkdocs mkdocs-material mkdocs_puml
+        run: pip install mkdocs mkdocs-material mkdocs_puml mkdocs-render-swagger-plugin
 
       - name: Build MkDocs
         run: mkdocs build --verbose
