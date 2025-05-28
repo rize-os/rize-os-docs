@@ -6,6 +6,7 @@ nav:
   - 'Overview': index.md
   - 'Core Concepts': core-concepts.md
   - 'Getting Started': getting-started.md
+  - 'API Reference': api.md
 
 theme:
   name: material
@@ -31,3 +32,9 @@ theme:
     - content.code.annotate
     - content.tabs.link
 
+plugins:
+  - search:
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml
+  - render_swagger:
+      allow_arbitrary_locations : true
